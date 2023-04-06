@@ -1,0 +1,2056 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+html {
+  font-size: calc(100vw/7.2);
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
+
+.war {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: url(../img/qietu/bg.jpg) no-repeat 0 100% ;
+  /* background: url(../img/qietu/ndzd_beijing.jpg) no-repeat 0 100%; */
+  background-size: 7.2rem 25.6rem;
+}
+
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 手机框 */
+.shouji {
+  width: 7.2rem;
+  height: 4.6rem;
+}
+
+/* 第一段终点顶部内容 */
+.war>.coten {
+  color: #ffffff;
+  overflow: hidden;
+  position: absolute;
+  top: 1.1rem;
+  left: 1.4rem;
+  /* 需要打开下面的，才能显示哦 */
+  /* display: block; */
+}
+
+.war>.coten>.time>p {
+  font-size: .4rem;
+  width: 2rem;
+}
+
+.war>.coten>.time>p>span {
+  display: inline-block;
+  transform: translateY(.06rem);
+}
+
+.war>.coten>.pic {
+  width: .76rem;
+  height: .76rem;
+  float: left;
+  margin-top: .35rem;
+  margin-left: .6rem;
+}
+
+.war>.coten>.text {
+  font-size: .24rem;
+  width: 2.9rem;
+  float: left;
+  margin: .25rem 0 .45rem .4rem;
+}
+
+.war>.coten>.text_top {
+  font-size: .2rem;
+  width: 2.3rem;
+  margin-left: 2.16rem;
+
+}
+
+/*  ----   */
+
+.war>.shan {
+  width: 7.2rem;
+  height: 1.3rem;
+  position: absolute;
+  top: 3.65rem;
+  left: 0;
+}
+
+.war>.yun1 {
+  width: 7.2rem;
+  height: 5.74rem;
+  position: absolute;
+  top: 4.15rem;
+  left: 0;
+}
+
+.war>.yun2 {
+  width: 7.2rem;
+  height: 5.74rem;
+  position: absolute;
+  top: 5.65rem;
+  top: 6rem;
+  left: 0;
+}
+
+.war>.yun3 {
+  width: 7.2rem;
+  height: 2.4rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+}
+
+.war>.z01 {
+  width: 2rem;
+  height: .58rem;
+  position: absolute;
+  bottom: 0.45rem;
+  left: 2.56rem;
+  z-index: 100;
+}
+
+.war>.z02 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  bottom: -3.19rem;
+  left: 2.57rem;
+  z-index: 99;
+}
+
+.war>.z03 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  bottom: -2.905rem;
+  left: 2.08rem;
+  z-index: 98;
+}
+
+.war>.z04 {
+  width: 2rem;
+  height: 5.34rem;
+  position: absolute;
+  bottom: -3.35rem;
+  left: 1.6rem;
+  z-index: 97;
+}
+
+.war>.z05 {
+  width: 1.76rem;
+  height: 3.02rem;
+  position: absolute;
+  bottom: -0.31rem;
+  left: 1.35rem;
+  z-index: 96;
+}
+
+.war>.z06 {
+  width: 1.76rem;
+  height: 3.02rem;
+  position: absolute;
+  bottom: 0.395rem;
+  left: 0.12rem;
+  z-index: 95;
+}
+
+.war>.z07 {
+  width: 1rem;
+  height: 4.21rem;
+  position: absolute;
+  bottom: -0.08rem;
+  left: .85rem;
+  z-index: 94;
+}
+
+.war>.z08 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  bottom: .69rem;
+  left: 1.34rem;
+  z-index: 93;
+}
+
+.war>.z09 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: 1.44rem;
+  left: .85rem;
+  z-index: 92;
+}
+
+.war>.z10 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: 1.865rem;
+  left: 1.585rem;
+  z-index: 90;
+}
+
+.war>.z11 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: 2.288rem;
+  left: 2.32rem;
+  z-index: 89;
+}
+
+.war>.z12 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: 2.709rem;
+  left: 3.049rem;
+  z-index: 88;
+}
+
+.war>.z13 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  bottom: 2.695rem;
+  left: 3.8rem;
+  z-index: 87;
+}
+
+.war>.z14 {
+  width: 1rem;
+  height: 1.45rem;
+  position: absolute;
+  bottom: 4.72rem;
+  left: 4.298rem;
+  z-index: 88;
+}
+
+.war>.z15 {
+  width: 2rem;
+  height: 5.34rem;
+  position: absolute;
+  bottom: -0.02rem;
+  left: 3.81rem;
+  z-index: 89;
+}
+
+.war>.z16 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  bottom: .42rem;
+  left: 4.3rem;
+  z-index: 90;
+}
+
+.war>.z17 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  bottom: .136rem;
+  left: 4.8rem;
+  z-index: 91;
+}
+
+.war>.z18 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  bottom: .14rem;
+  left: 5.315rem;
+  z-index: 92;
+}
+
+.war>.z19 {
+  width: .76rem;
+  height: .8rem;
+  position: absolute;
+  bottom: 3.05rem;
+  left: 5.07rem;
+  z-index: 93;
+}
+
+.war>.z20 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: -0.279rem;
+  left: 4.325rem;
+  z-index: 94;
+}
+
+.war>.z21 {
+  width: 1.26rem;
+  height: 3.02rem;
+  position: absolute;
+  bottom: 0.16rem;
+  left: 3.59rem;
+  z-index: 95;
+}
+
+.war>.z22 {
+  width: 1rem;
+  height: 5.27rem;
+  position: absolute;
+  bottom: -1.82rem;
+  left: 3.09rem;
+  z-index: 92;
+}
+
+.war>.z23 {
+  width: 1rem;
+  height: 3.46rem;
+  position: absolute;
+  bottom: 1.864rem;
+  left: 0.355rem;
+  z-index: 91;
+}
+
+.war>.z23>.dh {
+  width: .68rem !important;
+  height: .66rem !important;
+  position: absolute;
+  top: -0.63rem;
+  left: .2rem;
+}
+
+.war>.z24 {
+  width: 2.5rem;
+  height: 5.71rem;
+  position: absolute;
+  bottom: 2.08rem;
+  left: 1.1rem;
+}
+
+.war>.z25 {
+  width: 1rem;
+  height: 3.46rem;
+  position: absolute;
+  bottom: 3.6rem;
+  left: 4.31rem;
+  z-index: 86;
+}
+
+.war>.z25>.wf {
+  width: .82rem !important;
+  height: .73rem !important;
+  position: absolute;
+  top: -0.57rem;
+  left: .11rem;
+}
+
+.war>.z26 {
+  width: 1.5rem;
+  height: 6.34rem;
+  position: absolute;
+  bottom: 1.49rem;
+  left: 5.551rem;
+  z-index: 86;
+}
+
+.war>.z27 {
+  width: 1.26rem;
+  height: 4.21rem;
+  position: absolute;
+  bottom: .23rem;
+  left: 5.801rem;
+  z-index: 86;
+}
+
+.war>.z27>.qian {
+  width: .6rem !important;
+  height: .84rem !important;
+  position: absolute;
+  top: -0.63rem;
+  left: .22rem;
+}
+
+.war>.z28 {
+  width: 1rem;
+  height: 3.2rem;
+  position: absolute;
+  bottom: -0.52rem;
+  left: 6.56rem;
+  z-index: 86;
+}
+
+.war>.fengche {
+  width: 1.63rem;
+  height: 4.61rem;
+  position: absolute;
+  bottom: .66rem;
+  left: 2.08rem;
+  z-index: 91;
+}
+
+.war>.gz1 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 0.15rem;
+  left: 3.2rem;
+  z-index: 110;
+  /* animation:
+    gz1 1500ms linear,
+    gz2 983.03ms 1500ms linear,
+    gz3 2332.45ms 2483.23ms linear,
+    gz4 1395.72ms 4815.48ms linear,
+    gz5 522.11ms 6211.2ms linear,
+    gz6 3078.65ms 6733.31ms linear,
+    gz7 1347.41ms 9811.96ms linear,
+    gz8 994.23ms 11159.37ms linear,
+    gz9 1625.69ms 12153.6ms linear,
+    gz10 1699.82ms 13779.29ms linear,
+    gz11 972.18ms 15479.11ms linear; */
+}
+/* 
+.war>.gz2 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1.8rem;
+  z-index: 110;
+}
+
+.war>.gz3 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 1.6rem;
+  left: 2.69rem;
+  z-index: 110;
+}
+
+.war>.gz4 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 1.6rem;
+  left: 2.69rem;
+  z-index: 110;
+}
+
+.war>.gz5 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 4.05rem;
+  left: 1.5rem;
+  z-index: 110;
+}
+
+.war>.gz6 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 4.4rem;
+  left: 1.05rem;
+  z-index: 110;
+}
+
+.war>.gz7 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 6.1rem;
+  left: 3.95rem;
+  z-index: 110;
+}
+
+.war>.gz8 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 4.96rem;
+  left: 4.88rem;
+  z-index: 110;
+}
+
+.war>.gz9 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 4.4rem;
+  left: 3.95rem;
+  z-index: 110;
+}
+
+.war>.gz10 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 3.5rem;
+  left: 5.48rem;
+  z-index: 110;
+}
+
+.war>.gz11 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 2.38rem;
+  left: 4rem;
+  z-index: 110;
+}
+
+.war>.gz12 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 3.1rem;
+  left: 3.22rem;
+  z-index: 110;
+} */
+
+
+@keyframes gz1 {
+  0% {
+    bottom: 0.15rem;
+    left: 3.2rem;
+  }
+
+  100% {
+    bottom: 1rem;
+    left: 1.8rem;
+  }
+}
+
+@keyframes gz2 {
+  0% {
+    bottom: 1rem;
+    left: 1.8rem;
+  }
+
+  100% {
+    bottom: 1.6rem;
+    left: 2.69rem;
+  }
+}
+
+@keyframes gz3 {
+  0% {
+    bottom: 1.6rem;
+    left: 2.69rem;
+  }
+
+  100% {
+    bottom: 2.9rem;
+    left: 0.5rem;
+  }
+}
+
+@keyframes gz4 {
+  0% {
+    bottom: 2.9rem;
+    left: 0.5rem;
+  }
+
+  100% {
+    bottom: 4.05rem;
+    left: 1.5rem;
+  }
+}
+
+@keyframes gz5 {
+  0% {
+    bottom: 4.05rem;
+    left: 1.5rem;
+  }
+
+  100% {
+    bottom: 4.4rem;
+    left: 1.05rem;
+  }
+}
+
+@keyframes gz6 {
+  0% {
+    bottom: 4.4rem;
+    left: 1.05rem;
+  }
+
+  100% {
+    bottom: 6.1rem;
+    left: 3.95rem;
+  }
+}
+
+@keyframes gz7 {
+  0% {
+    bottom: 6.1rem;
+    left: 3.95rem;
+  }
+
+  100% {
+    bottom: 4.96rem;
+    left: 4.88rem;
+  }
+}
+
+@keyframes gz8 {
+  0% {
+    bottom: 4.96rem;
+    left: 4.88rem;
+  }
+
+  100% {
+    bottom: 4.4rem;
+    left: 3.95rem;
+  }
+}
+
+@keyframes gz9 {
+  0% {
+    bottom: 4.4rem;
+    left: 3.95rem;
+  }
+
+  100% {
+    bottom: 3.5rem;
+    left: 5.48rem;
+  }
+}
+
+@keyframes gz10 {
+  0% {
+    bottom: 3.5rem;
+    left: 5.48rem;
+  }
+
+  100% {
+    bottom: 2.38rem;
+    left: 4rem;
+  }
+}
+
+@keyframes gz11 {
+  0% {
+    bottom: 2.38rem;
+    left: 4rem;
+  }
+
+  100% {
+    bottom: 3.1rem;
+    left: 3.22rem;
+  }
+}
+
+.war>div {
+  display: none;
+}
+
+.war>.z01 {
+  display: block;
+  /* transform: translateY(3rem); */
+  animation: yi1 1800ms linear 1;
+}
+
+.war>.gz1 {
+  display: block;
+  animation: yi1 1800ms linear 1;
+}
+
+/* 鸽子柱子上移动画 */
+@keyframes yi1 {
+  0% {
+    transform: translateY(1.5rem);
+
+  }
+
+  100% {
+    transform: translateY(0);
+
+  }
+}
+
+/* 云朵动画 */
+.war>.yun1,
+.war>.yun2,
+.war>.yun3 {
+  display: block;
+  animation: yun 2000ms linear 1, yuntm 2800ms linear 1;
+}
+
+@keyframes yun {
+  0% {
+    transform: translateY(0.5rem);
+    opacity: 0;
+
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+
+  }
+}
+
+@keyframes yuntm {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 山的动画 */
+.war>.shan {
+  animation: shandh 2500ms linear 1;
+}
+
+@keyframes shandh {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+
+/* 手机和文字动画 */
+.war>.shouji {
+  display: block;
+  animation: sj 2500ms linear 1
+}
+
+.war>.coten {
+  /* display: block; */
+  animation: sj 2500ms linear 1
+}
+
+.wz {
+  animation: sj 1000ms ease-in 1
+}
+
+@keyframes sj {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.war>.shan {
+  display: block;
+}
+
+.war>.la {
+  display: block;
+  position: absolute;
+  font-size: 0.3rem;
+  color: rgb(26, 153, 136);
+  overflow: hidden;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  /* animation: shanghua 3000ms 2000ms linear 1; */
+}
+
+.war>.la>p {
+  margin-bottom: 0.15rem;
+  animation: p 2500ms ease-in 1;
+}
+
+@keyframes p {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 用背景图做个箭头动画 */
+.war>.la>.js {
+  width: 0.64rem;
+  height: 1.29rem;
+  margin: auto;
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  animation: jt 6500ms linear 1;
+}
+
+.war>.la>.js>div {
+  height: 0.33rem;
+  margin-bottom: 0.1rem;
+  background: url(../img/jian-\ tou.png);
+  background-size: 0.64rem 0.33rem;
+}
+
+.war>.la>.js>div:first-child {
+  animation: j1 400ms linear infinite alternate;
+}
+
+.war>.la>.js>div:nth-child(2) {
+  animation: j3 600ms linear infinite alternate;
+}
+
+.war>.la>.js>div:last-child {
+  margin-bottom: 0;
+  animation: j3 800ms linear infinite alternate;
+}
+
+@keyframes j1 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes j2 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes j3 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes jt {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 下面是上滑第一次物体上升动画 */
+.z24dh {
+  animation: z24dh 1500ms ease 1;
+}
+
+@keyframes z24dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  100% {
+    bottom: 2.08rem;
+  }
+}
+
+.z26dh {
+  animation: z26dh 1650ms ease-out 1;
+}
+
+@keyframes z26dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  100% {
+    bottom: 1.49rem;
+  }
+}
+
+.z28dh {
+  animation: z28dh 1500ms ease 1;
+}
+
+@keyframes z28dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  100% {
+    bottom: -0.52rem;
+  }
+}
+
+.fengchedh {
+  animation: fengchedh 1700ms ease-out 1;
+}
+
+@keyframes fengchedh {
+  0% {
+    bottom: -7rem;
+  }
+
+  100% {
+    bottom: 0.66rem;
+  }
+}
+
+/* 下面是第一段(总共四段)桥面上升动画 */
+.z02dh {
+  animation: z02dh 2000ms ease-out 1;
+
+}
+
+@keyframes z02dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: -3rem;
+  }
+
+  100% {
+    bottom: -3.19rem;
+  }
+}
+
+.z03dh {
+  animation: z03dh 2100ms ease-out 1;
+
+}
+
+@keyframes z03dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: -2.715rem;
+  }
+
+  100% {
+    bottom: -2.905rem;
+  }
+}
+
+.z04dh {
+  animation: z04dh 2200ms ease-out 1;
+
+}
+
+@keyframes z04dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: -3.16rem;
+  }
+
+  100% {
+    bottom: -3.35rem;
+  }
+}
+
+.z05dh {
+  animation: z05dh 2300ms ease-out 1;
+
+}
+
+@keyframes z05dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: -0.12rem;
+  }
+
+  100% {
+    bottom: -0.31rem;
+  }
+}
+
+.z06dh {
+  animation: z06dh 2400ms ease-out 1;
+
+}
+
+@keyframes z06dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.585rem;
+  }
+
+  100% {
+    bottom: 0.395rem;
+  }
+}
+
+.z07dh {
+  animation: z07dh 2500ms ease-out 1;
+
+}
+
+@keyframes z07dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.11rem;
+  }
+
+  100% {
+    bottom: -0.08rem;
+  }
+}
+
+.z08dh {
+  animation: z08dh 2600ms ease-out 1;
+
+}
+
+@keyframes z08dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.88rem;
+  }
+
+  100% {
+    bottom: 0.69rem;
+  }
+}
+
+/* 下面为点击的白色圆圈1 依次 2 3 4 */
+.quan1 {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 3.6rem;
+  left: 1.25rem;
+  z-index: 1111;
+  border: 8px solid rgb(232, 230, 230);
+  animation: quan1 500ms linear infinite alternate;
+
+}
+
+@keyframes quan1 {
+  0% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.quan2 {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5.62rem;
+  left: 3.7rem;
+  z-index: 1111;
+  border: 8px solid rgb(232, 230, 230);
+  animation: quan2 500ms linear infinite alternate;
+
+}
+
+@keyframes quan2 {
+  0% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.quan3 {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 3.03rem;
+  left: 5.23rem;
+  z-index: 1111;
+  border: 8px solid rgb(232, 230, 230);
+  animation: quan3 500ms linear infinite alternate;
+
+}
+
+@keyframes quan3 {
+  0% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.quan4 {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2.6rem;
+  left: 3rem;
+  z-index: 1111;
+  border: 8px solid rgb(232, 230, 230);
+  animation: quan4 500ms linear infinite alternate;
+
+}
+
+@keyframes quan4 {
+  0% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+
+/* 第二段开始第一个柱子依次升起动画 */
+.z23dh {
+  animation: z23dh 2000ms ease-out 1;
+
+}
+
+@keyframes z23dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 2.054rem;
+  }
+
+  100% {
+    bottom: 1.864rem;
+    ;
+  }
+}
+
+/* 下面一个是z23顶部电话动画 */
+.dhdh {
+  animation: dhdh 600ms linear infinite alternate;
+}
+
+@keyframes dhdh {
+  0% {
+    transform: translateY(0.1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+.z09dh {
+  animation: z09dh 2100ms ease-out 1;
+
+}
+
+@keyframes z09dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 1.63rem;
+  }
+
+  100% {
+    bottom: 1.44rem;
+    ;
+  }
+}
+
+.z10dh {
+  animation: z10dh 2200ms ease-out 1;
+
+}
+
+@keyframes z10dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 2.055rem;
+  }
+
+  100% {
+    bottom: 1.865rem;
+    ;
+  }
+}
+
+.z11dh {
+  animation: z11dh 2300ms ease-out 1;
+
+}
+
+@keyframes z11dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 2.478rem;
+  }
+
+  100% {
+    bottom: 2.288rem;
+    ;
+  }
+}
+
+.z12dh {
+  animation: z12dh 2400ms ease-out 1;
+
+}
+
+@keyframes z12dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 2.899rem;
+  }
+
+  100% {
+    bottom: 2.709rem;
+    ;
+  }
+}
+
+.z13dh {
+  animation: z13dh 2500ms ease-out 1;
+
+}
+
+@keyframes z13dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 2.885rem;
+  }
+
+  100% {
+    bottom: 2.695rem;
+
+  }
+}
+
+.z25dh {
+  animation: z25dh 2000ms ease-out 1;
+
+}
+
+@keyframes z25dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 3.79rem;
+  }
+
+  100% {
+    bottom: 3.6rem;
+    ;
+  }
+}
+
+/* 小wf上下移动动画 */
+.wfdh {
+  animation: wfdh 600ms linear infinite alternate;
+}
+
+@keyframes wfdh {
+  0% {
+    transform: translateY(0.1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+.z14dh {
+  animation: z14dh 2100ms ease-out 1;
+
+}
+
+@keyframes z14dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 4.91rem;
+  }
+
+  100% {
+    bottom: 4.72rem;
+    ;
+  }
+}
+
+.z15dh {
+  animation: z15dh 2200ms ease-out 1;
+
+}
+
+@keyframes z15dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.17rem;
+  }
+
+  100% {
+    bottom: -0.02rem;
+    ;
+  }
+}
+
+.z16dh {
+  animation: z16dh 2300ms ease-out 1;
+
+}
+
+@keyframes z16dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.61rem;
+  }
+
+  100% {
+    bottom: 0.42rem;
+    ;
+  }
+}
+
+.z17dh {
+  animation: z17dh 2400ms ease-out 1;
+
+}
+
+@keyframes z17dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.326rem;
+  }
+
+  100% {
+    bottom: 0.136rem;
+    ;
+  }
+}
+
+.z18dh {
+  animation: z18dh 2500ms ease-out 1;
+
+}
+
+@keyframes z18dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.33rem;
+  }
+
+  100% {
+    bottom: 0.14rem;
+    ;
+  }
+}
+
+.z27dh {
+  animation: z27dh 2000ms ease-out 1;
+
+}
+
+@keyframes z27dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.42rem;
+  }
+
+  100% {
+    bottom: 0.23rem;
+    ;
+  }
+}
+
+/* 小金币上下移动动画 */
+.qiandh {
+  animation: qiandh 600ms linear infinite alternate;
+}
+
+@keyframes qiandh {
+  0% {
+    transform: translateY(0.1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+.z19dh {
+  animation: z19dh 2100ms ease-out 1;
+}
+
+@keyframes z19dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 3.24rem;
+  }
+
+  100% {
+    bottom: 3.05rem;
+    ;
+  }
+}
+
+.z20dh {
+  animation: z20dh 2200ms ease-out 1;
+
+}
+
+@keyframes z20dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: -0.089rem;
+  }
+
+  100% {
+    bottom: -0.279rem;
+    ;
+  }
+}
+
+.z21dh {
+  animation: z21dh 2300ms ease-out 1;
+
+}
+
+@keyframes z21dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: 0.35rem;
+  }
+
+  100% {
+    bottom: 0.16rem;
+    ;
+  }
+}
+
+.z22dh {
+  animation: z22dh 2400ms ease-out 1;
+
+}
+
+@keyframes z22dh {
+  0% {
+    bottom: -7rem;
+  }
+
+  80% {
+    bottom: -1.63rem;
+  }
+
+  100% {
+    bottom: -1.82rem;
+    ;
+  }
+}
+
+/* 下面为顶部内容样式  --1  */
+.war>.coten1 {
+  width: 3.55rem;
+  position: absolute;
+  left: 53%;
+  margin-left: -1.775rem;
+  top: 1.3rem;
+  /* 需要显示才能看的到哦 */
+  display: block;
+  color: #fdfffc;
+  animation: sj 3000ms linear 1
+}
+
+.war>.coten1>.time {
+  font-size: 0.39rem;
+  letter-spacing: 0.44rem;
+}
+
+.war>.coten1>.zd {
+  font-size: 0.7rem;
+  letter-spacing: 0.12rem;
+  font-weight: bold;
+}
+
+/* 下面为顶部内容样式  --2  */
+.war>.coten2 {
+  width: 4.3rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.215rem;
+  top: 1.27rem;
+  color: #fdfffc;
+  /* 需要显示才能看的到哦 */
+  /* display: block; */
+}
+
+.war>.coten2>.yh {
+  font-size: 0.3rem;
+  margin-bottom: 0.45rem;
+}
+
+.war>.coten2>.tishi {
+  font-size: 0.3rem;
+  margin-bottom: 0.45rem;
+  font-size: 0.21rem;
+  text-align: right;
+}
+
+/* 下面为顶部内容样式  --3  */
+.war>.coten3 {
+  width: 4.69rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.325rem;
+  top: 1.15rem;
+  color: #fdfffc;
+  /* 需要打开才能看到哦 */
+  /* display: block; */
+}
+
+.war>.coten3>.top {
+  overflow: hidden;
+  margin-bottom: 0.35rem;
+  font-size: 0.33rem;
+}
+
+.war>.coten3>.top>.pic {
+  width: 0.76rem;
+  height: 0.76rem;
+  display: block;
+  float: left;
+  margin-right: 0.14rem;
+}
+
+.war>.coten3>.top>.pic>img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .war>.coten3>.t_right{
+  width: 3.7rem;
+  float: left;
+  font-weight: bold ;
+} */
+.war>.coten3>.b_text {
+  font-size: 0.24rem;
+  text-align: right;
+}
+
+/* 下面为顶部内容样式  --4  */
+.war>.coten4 {
+  width: 4.69rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.325rem;
+  top: 1.15rem;
+  color: #fdfffc;
+  /* 需要打开才能看到哦 */
+  /* display: block; */
+}
+
+.war>.coten4>.top {
+  overflow: hidden;
+  margin-bottom: 0.35rem;
+  font-size: 0.33rem;
+}
+
+.war>.coten4>.top>.pic {
+  width: 0.76rem;
+  height: 0.76rem;
+  display: block;
+  float: left;
+  margin-right: 0.14rem;
+}
+
+.war>.coten4>.top>.pic>img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .war>.coten3>.t_right{
+  width: 3.7rem;
+  float: left;
+  font-weight: bold ;
+} */
+.war>.coten4>.b_text {
+  font-size: 0.24rem;
+  text-align: right;
+}
+
+
+/* 下面为顶部内容样式  --5  */
+.war>.coten5 {
+  width: 4.69rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.325rem;
+  top: 1.15rem;
+  color: #fdfffc;
+  /* 需要打开才能看到哦 */
+  /* display: block; */
+}
+
+.war>.coten5>.top {
+  overflow: hidden;
+  margin-bottom: 0.35rem;
+  font-size: 0.33rem;
+}
+
+.war>.coten5>.top>.pic {
+  width: 0.76rem;
+  height: 0.76rem;
+  display: block;
+  float: left;
+  margin-right: 0.14rem;
+}
+
+.war>.coten5>.top>.pic>img {
+  width: 100%;
+  height: 100%;
+}
+
+.war>.coten5>.b_text {
+  width: 2.08rem;
+  height: 0.55rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  border: 0.02rem solid #fdfffc;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.04rem;
+  line-height: 0.55rem;
+  text-align: center;
+  font-size: 0.24rem;
+}
+
+/* 下面为顶部内容样式  --6  */
+.war>.coten6 {
+  position: absolute;
+  left: 1.2rem;
+  top: 1.06rem;
+  /* 需要打开才能看到哦 */
+  /* display: block; */
+  color: #f3feff;
+
+}
+
+.war>.coten6>.top {
+  font-size: 0.33rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.war>.coten6>.bottom {
+  font-size: 0.33rem;
+  font-size: 0.25rem;
+}
+
+/* 到终点其他东西不可点击
+.noclick{
+  pointer-events:none;
+} */
+
+/* 柱子和鸽子上升动画 */
+.qifei {
+  animation: qifei 2800ms linear 1 forwards !important;
+}
+
+@keyframes qifei {
+  0% {
+    transform: translateY(0);
+  }
+
+  10% {
+    transform: translateY(0.2rem);
+  }
+
+  100% {
+    transform: translateY(-1.5rem);
+  }
+}
+
+/* 背景上升动画 */
+.bg {
+  animation: bg 2800ms linear 1 forwards;
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0 100%;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* 升天后界面样式 */
+.war>.textTop {
+  width: 5.86rem;
+  overflow: hidden;
+  position: absolute;
+  top: 0.87rem;
+  left: 0.75rem;
+  color: #fafffc;
+}
+
+.war>.textTop>.lt {
+  font-size: 0.3rem;
+  width: 3.65rem;
+  float: left;
+}
+
+.war>.textTop>.lt>p {
+  margin-bottom: 0.36rem;
+}
+
+.war>.textTop>.rt {
+  font-size: 0.26rem;
+  width: 2.02rem;
+  float: right;
+  height: 0.62rem;
+  border-radius: 0.28rem;
+  border: 0.02rem solid #fafffc;
+  text-align: center;
+  line-height: 0.62rem;
+}
+
+.war>.textTop>.lt span {
+  font-size: 0.45rem;
+  font-weight: bold;
+}
+
+.war>.btnBottom {
+  width: 5.86rem;
+  overflow: hidden;
+  position: absolute;
+  left: 0.7rem;
+  bottom: 0.6rem;
+  font-size: 0.26rem;
+  color: #fafffc;
+}
+
+.war>.btnBottom>p {
+  width: 2.02rem;
+  border-radius: 0.28rem;
+  border: 0.02rem solid #fafffc;
+  height: 0.62rem;
+  line-height: 0.62rem;
+  text-align: center;
+}
+
+.war>.btnBottom>p:first-child {
+  float: left;
+}
+
+.war>.btnBottom>p:last-child {
+  float: right;
+}
+
+.war>.btnBottom img,
+.war>.textTop img {
+  width: 0.18rem;
+  height: 0.2rem;
+}
+
+/* 下面为星球样式 */
+.war>.Q1 {
+  position: absolute;
+  left: 2.56rem;
+  top: 3.56rem;
+  transform-origin: center;
+}
+/* 圈1用的动画 */
+.Qdh{
+  animation: Q1 880ms linear forwards ,Q11 6000ms 900ms linear infinite alternate;
+}
+
+.war>.Q2 {
+  position: absolute;
+  right: -0.55rem;
+  top: 4.8rem;
+  transform: rotate(200deg)  translateX(0.7rem);
+  transform-origin: right bottom;
+}
+.war>.Q3 {
+  position: absolute;
+  left: 0.15rem;
+  top: 5.6rem;
+  transform: rotate(-200deg)  translateX(0.7rem);
+  transform-origin: left bottom;
+}
+/* Q1 Q2 Q3 动画 */
+@keyframes Q1 {
+   0%{
+    transform: scale(0.05);
+   }
+   100%{
+    transform: scale(1);
+   }
+}
+/* Q1上下缓慢移动 */
+@keyframes Q11 {
+  0%{
+    transform: translateY(0);
+   }
+  50%{
+   transform: translateY(0.2rem);
+  }
+  100%{
+   transform: translateY(-0.2rem);
+  }
+}
+/* 圈2和圈3用的动画 */
+.Q2_3dh{
+  animation: xz 880ms linear forwards , Q2_3 6500ms 900ms linear infinite alternate;
+}
+.Q2_4dh{
+  animation: xz2 700ms linear forwards , Q2_3 6500ms 900ms linear infinite alternate;
+}
+@keyframes xz {
+  0%{
+    transform: rotate(-200deg) translateX(0.7rem);
+  }
+  100%{
+    transform: rotate(0) translateX(0);
+  }
+}
+@keyframes xz2 {
+  0%{
+    transform: rotate(200deg) translateX(0.7rem);
+  }
+  100%{
+    transform: rotate(0) translateX(0);
+  }
+}
+@keyframes Q2_3 {
+  0%{
+    transform: translateY(0);
+   }
+  50%{
+   transform: translateY(0.3rem);
+  }
+  100%{
+   transform: translateY(-0.3rem);
+  }
+}
+.war>.Q1>img.box1 {
+  width: 2.1rem;
+  height: 2.08rem;
+  position: relative;
+  left: 0.1rem;
+  top: 0.2rem;
+  z-index: 3;
+
+}
+
+.war>.Q2>img.box2 {
+  width: 1.82rem;
+  height: 1.82rem;
+  position: relative;
+  left: 0.2rem;
+  top: 0.2rem;
+  z-index: 3;
+}
+
+.war>.Q3>img.box3 {
+  width: 1.65rem;
+  height: 1.64rem;
+  position: relative;
+  left: 0.2rem;
+  top: 0.2rem;
+  z-index: 3;
+}
+
+.war>.Q1>img.gg {
+  width: 0.7rem;
+  height: 1rem;
+  position: relative;
+  left: -1.6rem;
+  top: -1.2rem;
+  z-index: 8;
+}
+
+.war>.Q2>img.gg {
+  width: 0.7rem;
+  height: 1rem;
+  position: relative;
+  left: -1.35rem;
+  top: -1rem;
+  z-index: 8;
+}
+
+.war>.Q3>img.gg {
+  width: 0.7rem;
+  height: 1rem;
+  position: relative;
+  left: -1.3rem;
+  top: -1rem;
+  z-index: 8;
+}
+
+.war>.Q1>p {
+  width: 1.87rem;
+  height: 0.45rem;
+  border: 0.02rem solid white;
+  border-radius: 0.09rem;
+  background: rgb(17, 17, 17, 0.4);
+  position: relative;
+  left: 0.18rem;
+  top: -1.1rem;
+  z-index: 10;
+  color: #fafffc;
+  text-align: center;
+  line-height: 0.45rem;
+  font-size: 0.2rem;
+}
+.war>.Q2>p {
+  width: 1.87rem;
+  height: 0.45rem;
+  border: 0.02rem solid white;
+  border-radius: 0.09rem;
+  background: rgb(17, 17, 17, 0.4);
+  position: relative;
+  left: 0.15rem;
+  top: -0.8rem;
+  z-index: 10;
+  color: #fafffc;
+  text-align: center;
+  line-height: 0.45rem;
+  font-size: 0.2rem;
+
+}
+.war>.Q3>p {
+  width: 1.87rem;
+  height: 0.45rem;
+  position: relative;
+  border: 0.02rem solid white;
+  border-radius: 0.09rem;
+  background: rgb(17, 17, 17, 0.4);
+  left: 0.1rem;
+  top: -0.75rem;
+  z-index: 10;
+  color: #fafffc;
+  text-align: center;
+  line-height: 0.45rem;
+  font-size: 0.2rem;
+}
+/* 柱子下降操作 */
+.xiaj{
+  animation: xiaj  3000ms linear forwards !important;
+}
+@keyframes xiaj {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(10rem);
+  }
+}
